@@ -1,0 +1,13 @@
+{
+  "name": "artox-lab/example-protobuf-messages",
+  "require": {
+    "php": ">=5.5.0",
+    "google/protobuf": "^3.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ArtoxLab\\ExampleMessage\\": "src/ArtoxLab/ExampleMessage",
+      "GPBMetadata\\ArtoxLab\\ExampleMessage\\": "GPBMetadata/ArtoxLab/ExampleMessage"
+    }
+  }
+}
